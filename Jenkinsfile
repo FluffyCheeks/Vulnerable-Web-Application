@@ -22,5 +22,5 @@ pipeline {
         recordIssues enabledForFailure: true, tool: sonarQube()
       }
     }
-  }
+  
 }
